@@ -64,5 +64,43 @@ div.course>div img{
     height:70px;
 }
 div.videos {
-    display: none;
+    display: block;
+    width: 95%;
+}
+div.videos > div {
+    width: 20%;
+    position: relative;
+}
+div.videos > div iframe {
+    width: 350px;
+    height: 120px;
+    margin: 5px auto;
+}
+.foot {
+    display: block;
+}
+
+.menu1 {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.foot3 > div > iframe {
+    padding-left: 80px;
+}
+ul.menu2 {
+    display: block;
+}
+ul.menu2>li {
+    padding: 5px;
+}
+.toTop {
+    right: 10%;
+    font-size: 35px;
+}
+@media screen and (orientation: landscape) {
+    body {
+    background-color: gold;
+    }
+    /* khi chiều rộng lớn hơn chiều cao thì sẽ có màu gold , landscape*/
 }
